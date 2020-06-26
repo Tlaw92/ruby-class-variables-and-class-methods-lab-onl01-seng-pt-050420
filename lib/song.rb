@@ -6,6 +6,10 @@ class Song
     @genre = genre 
   end   
   
+  def name=(name)
+    @name 
+  end   
+  
 end   
 
 
