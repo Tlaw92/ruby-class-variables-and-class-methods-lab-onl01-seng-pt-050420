@@ -1,6 +1,6 @@
 class Song 
   
-  @@count = 0 
+  # @@count = song
   
   attr_accessor :name, :artist, :genre 
   
@@ -8,12 +8,12 @@ class Song
     @name = name 
     @artist = artist 
     @genre = genre 
-    @@count = 
+  
   
 end   
 
 
-
+ninety_nine_problems = Song.new("99 Problems", "Jay-Z", "rap")
 
 
 
